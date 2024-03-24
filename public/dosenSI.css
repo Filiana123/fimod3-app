@@ -1,0 +1,160 @@
+/* Mengatur gaya untuk navbar */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Posisikan item secara vertikal di tengah */
+}
+
+.navbar-collapse {
+    color: white;
+}
+/* Mengatur gaya untuk navbar brand */
+.navbar-brand {
+    color: purple; 
+    font-weight: bold; 
+    margin-right: auto; 
+    margin-left: 60px;
+}
+
+/* Mengatur gaya untuk link pada navbar */
+.navbar-nav .nav-link {
+    color: purple; /* Warna teks link navbar */
+    font-weight: bold; /* Ketebalan teks link navbar */
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: gray; 
+}
+/* Mengatur gaya untuk dropdown menu */
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.btn-primary {
+    margin-right: 100px;
+    margin-left: 20px; /* Memberikan jarak antara tombol dengan elemen sebelumnya */
+    background-color: purple; /* Warna latar belakang tombol Daftar Sekarang */
+    border-color: white; /* Warna border tombol Daftar Sekarang */
+    color: white; /* Warna teks tombol Daftar Sekarang */
+}
+
+.btn-primary:hover {
+    background-color: white; /* Warna latar belakang hover tombol Daftar Sekarang */
+    border-color: white; /* Warna border hover tombol Daftar Sekarang */
+    color: purple; /* Warna teks hover tombol Daftar Sekarang */
+}
+
+/* teks */
+
+.purple-box {
+    background-color: purple;
+    padding: 20px;
+    padding-top: 100px; 
+
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* card */
+.card-container {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.card {
+    border:none;  
+    width: 200px;
+    flex: 0 1 calc(50%-10px);
+    height: 300px; 
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.card-body {
+    text-align: center; /* Mengatur teks agar rata tengah */
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .footer-column1 {
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-bottom: 1px;
+  }
+  
+  .footer-column2 {
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+  }
+  .footer-column3 {
+    flex: 1;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+  }
+
+  
+  .hover-text:hover {
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .hover-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .hover-icon i {
+    margin-right: 5px;
+  }
+  
+  .hover-icon:hover .hover-text {
+    color: grey;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
